@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background-color: #C0DEED;
+	background-image:url(https://abs.twimg.com/images/themes/theme1/bg.png);
+	background-repeat: no-repeat;
+}
+
+#main {
+	font-family: 'Open Sans' sans-serif;
+	max-width:760px;
+	margin: 2em auto;
+}
+
+#side {
+	float:left;
+	width: 25%;
+	padding-right: 5%;
+}
+
+img.profile {
+	border:8px solid #fff;
+	box-shadow:1px 1px 3px #000;
+	box-sizing:border-box;
+	width: 100%;
+	max-width:200px;
+}
+#content {
+	float:left;
+	width: 70%;
+}
+@media all and (max-width: 760px) {
+	#side, #content {
+		float:none;
+		width:100%;
+	}
+	#side, header, h2 {
+		text-align:center;
+	}
+}
+
+h1 {
+	margin: 0;
+	margin-top: 0.2em;
+	font-size:250%;
+}
+.twitter-handle {
+	color:#444;
+}
+h2 {
+	margin-top: 1.2em;
+	margin-bottom: 0.6em;
+}
+
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 1em;
+}
+
+li:nth-child(odd){
+	background-color: #D7EAF3;
+}
+.date {
+	color:#777;
+	font-size:small;
+}
+.tweets p {
+	margin:0;
+}
